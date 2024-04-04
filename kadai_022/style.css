@@ -33,7 +33,7 @@ main {
     border: 3px solid rgb(238, 204, 204);
     flex-basis: 25%;
     padding: 10px 15px;
-    margin: 20 0px;
+    margin: 20px 0px;
 }
 
 h2 {
@@ -90,6 +90,6 @@ a:hover {
     }
 
     .contents {
-        margin: 10px 0;
+        margin: 20px 0;
     }
 }
