@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        div {
+            position: absolute;
+            left: 50px;
+            top: 50px;
+            width: 150px;
+            height: 150px;
+            background-color: skyblue;
+            /* 正方形の左上を起点として回転させる */
+            transform-origin: 0% 0%;
+        }
+
+        /* カーソルが乗ったときに0.3sで回転する */
+        div:hover {
+            transform: rotate(20deg);
+            transition: all 0.3s;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        回転します
+    </div>
+
+</body>
+
+</html>
